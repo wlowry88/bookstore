@@ -1,0 +1,11 @@
+<h3>{{model.name}}</h3>
+
+<strong>Biography</strong>:
+So the thing is, I don't really have one.
+
+<h4>Published titles:</h4>
+<ul>
+{{#each model.books as |book|}}
+  <li>{{book.title}}</li>
+{{/each}}
+</ul>
